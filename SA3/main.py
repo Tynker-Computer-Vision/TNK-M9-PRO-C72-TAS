@@ -86,7 +86,7 @@ while True:
                     dx = 0
                     dy = 0
 
-                    # Check if menuchoice is 0,1,2,3,4 and set the variables scale, dx, dy
+                    # Check if menuchoice is 0,1 and set the variables scale, dx, dy
                     if(menuChoice == 0):
                         scale = 90
                         dx = 5
@@ -95,18 +95,6 @@ while True:
                         scale = 85
                         dx = 5
                         dy = 80
-                    if(menuChoice == 2):
-                        scale = 55
-                        dx = 20
-                        dy = 60
-                    if(menuChoice == 3):
-                        scale = 70
-                        dx = 15
-                        dy = 30
-                    if(menuChoice == 4):
-                        scale = 80
-                        dx = 10
-                        dy = 30
 
                     resizefactor = dist/scale
 
